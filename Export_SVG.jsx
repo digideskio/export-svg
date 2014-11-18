@@ -56,7 +56,7 @@ function exportLayer(layer, path){
 		copyLayerTo(layer, _auxDoc);		
 		selectAll(_auxDoc);		
 		reNameLayer(_auxDoc, layer.name);		
-		centerLayer(_auxDoc);				
+		//centerLayer(_auxDoc);				
 		exportAsSVG(validateLayerName(layer.name, '-'), _auxDoc, path);
 		
 		//Delete all the content of auxiliar document
